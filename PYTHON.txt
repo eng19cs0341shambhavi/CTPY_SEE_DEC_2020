@@ -1,0 +1,50 @@
+5 A)
+3	
+1	2
+2	2
+8	7
+
+2
+3	3
+4	4
+
+WHEN A KEY DOES NOT EXIST IN DATA1, THE KEY-VALUE PAIR IS NOT ADDED TO IT.
+
+
+5 B) 
+if K in data1 :
+	v1 = data1[K]
+	if v1!= v2:
+		dupkeys[k]= [v1, v2]
+		deldata1[K]
+
+else:
+	data1[k] = K2
+
+
+5c)
+TC-1
+4
+1	2
+14	14
+3	8
+4	2
+
+2
+3	3
+4	4
+
+TC-2
+4
+1	2
+2	2
+3	3
+4	19
+
+2
+3	3
+4	19
+
+TC-3
+THE TEST CASE WITHIN 50, WHICH BREAKS THE INITIALLY WRITTEN CODE CAN BE WRITTEN HERE.
+
